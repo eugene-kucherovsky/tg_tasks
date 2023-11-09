@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.basic {
+  position: relative; /* to make sure the parent, not the body, will be the point of reference for the child */
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  max-width: 30rem;
+  width: 70%; /* half of the width of the parent */
+  aspect-ratio: 1; /* height equals width */
+  border: 1px solid;
+}
+
+.root {
+  position: relative;
+  padding-top: 20rem;
+}

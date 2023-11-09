@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.api-message {
+  margin-top: 2rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.table__headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  min-width: 10rem;
+  padding: 0.6rem;
+  border: 1px solid;
+  font-weight: 600;
+}
+
+.table__rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-data {
+  all: unset;
+  max-width: 8.275rem;
+  min-height: 1.9rem;
+  padding: 0.2rem 0.8rem;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.table__rows-btn-update {
+  all: unset;
+  cursor: pointer;
+  min-width: 6rem;
+  max-height: 1.9rem;
+  padding: 0rem 0.6rem 0.1rem 0.6rem;
+  margin-left: 0.1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid;
+  background-color: #eaeaea;
+}
+
+.table__rows-btn-update:hover {
+  background-color: #f0fa92;
+}
+
+.table__rows-btn-delete {
+  all: unset;
+  cursor: pointer;
+  min-width: 6rem;
+  max-height: 1.9rem;
+  padding: 0rem 0.6rem 0.1rem 0.6rem;
+  margin-left: 0.1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid;
+  background-color: #eaeaea;
+}
+
+.table__rows-btn-delete:hover {
+  background-color: #fa9292;
+}
+
+.form-create {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-create__input {
+  all: unset;
+  max-width: 8.275rem;
+  min-height: 1.9rem;
+  padding: 0.2rem 0.8rem;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.form-create__btn-submit {
+  all: unset;
+  cursor: pointer;
+  min-width: 6rem;
+  min-height: 1.9rem;
+  padding: 0rem 0.6rem 0.1rem 0.6rem;
+  margin-left: 0.1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid;
+  background-color: #eaeaea;
+}
+
+.form-create__btn-submit:hover {
+  background-color: #adf5b9;
+}
